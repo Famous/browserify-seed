@@ -19,6 +19,8 @@ npm i # install dependencies
 ###Development
 Run the dev server with ```npm run start-dev```
 
+Now the dev server should run on localhost:1337
+
 Stop the dev serve with  ``` npm run stop-dev```
 
 Run the linters with ```npm run-script lint```
