@@ -6,10 +6,10 @@
   "main": "plugin.js",
   "browserify": {
     "transform": [
-      "famousify",
-      "cssify",
       "brfs",
-      "deamdify"
+      "cssify",
+      "deamdify",
+      "famousify"
     ]
   },
   "scripts": {
@@ -23,22 +23,21 @@
     "lint": "npm run lint-eslint && npm run lint-jscs"
   },
   "devDependencies": {
-    "eslint": "^0.9.1",
+    "browserify": "^6.3.2",
+    "eslint": "^0.9.2",
     "jscs": "^1.7.3",
-    "watchify": "^2.1.0"
+    "uglify-js": "^2.4.15",
+    "watchify": "^2.1.1"
   },
   "author": "TheAlphaNerd",
   "license": "ISC",
   "dependencies": {
     "brfs": "^1.2.0",
-    "browserify": "^6.2.0",
     "cssify": "^0.6.0",
     "deamdify": "^0.1.1",
-    "famous": "^0.3.0",
+    "famous": "^0.3.1",
     "famous-polyfills": "^0.3.0",
     "famousify": "^0.1.5",
-    "hapi": "^7.1.1",
-    "uglify-js": "^2.4.15",
-    "watchify": "^2.0.0"
+    "hapi": "^7.5.2"
   }
 }
